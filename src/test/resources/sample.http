@@ -50,3 +50,14 @@ GET {{baseURL}}
 ### Získat seznam knih, včetně stornovaných
 GET {{baseURL}}/?vcetneStornovanych=true
 
+### Get book by id
+GET {{baseURL}}/3
+
+### Edit book
+PUT {{baseURL}}/3
+
+### Delete book
+DELETE {{baseURL}}/3
+
+### Restore book
+POST {{baseURL}}/3/obnovit
